@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+body {
+    background: burlywood;
+    font-family: 'Zen Antique', serif;
+}
+
+#mainContent {
+    margin: 0 20%;
+}
+
+#footerBar {
+    width: 80%;
+    padding: 1% 0 1% 25%;
+    border-top: solid;
+    position: relative;
+    right: 4.5%;
+
+}
+
+#footerBar a {
+    text-decoration: none;
+}
+
+footer {
+    border-top: solid;
+    text-align: center;
+    width: 100%;
+}
+
+#nav_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: rgb(155, 155, 155, 0.75);
+    border-bottom: 3px solid #ccc;
+    text-align: center;
+  }
+
+#nav_bar nav a {
+    display: inline-block;
+    width: 10%;
+    padding: 0 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+  #nav_bar nav a:hover {
+      color: white;
+      background: black;
+
+  }
+
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+h3 {
+    margin: 0; /* improve the vertical look of content in the columns */
+}
+
+/*.wrapper {
+    width: 25%;
+    margin: 0 auto;
+  }
+*/
+
+
+img {
+    max-width: 100%; /* 100% of the column it is contained in */
+    padding: 25% 0 0 0;
+}
+
+img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+
+.column {
+    width: 43%; /* less than 50% to account for padding or margins */
+    display: inline-block; /* allows columns to be beside each other */
+    padding: 0 3% 5% 3%;
+    vertical-align: top; /*align the paragraph text to top of the column box*/
+  }
+  
+  /* Tile Sizes */
+  
+.column2 {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+
+  
