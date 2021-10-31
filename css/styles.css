@@ -10,7 +10,7 @@ body {
 }
 
 iframe {
-    max-width: 125%;
+    max-width: 100%;
 }
 #footerBar {
     width: 80%;
